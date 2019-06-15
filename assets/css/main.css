@@ -2911,6 +2911,7 @@ input, select, textarea {
 		header > h2 + p {
 			font-size: 1rem;
 			margin-top: -0.75rem;
+			color: grey;
 		}
 
 		header > h3 + p {
@@ -2926,6 +2927,7 @@ input, select, textarea {
 		header.major {
 			margin: 0 0 4rem 0;
 			text-align: center;
+			color:#18bfef;
 		}
 
 			header.major > :last-child {
@@ -2935,6 +2937,7 @@ input, select, textarea {
 			header.major > p {
 				margin-top: 0;
 				text-align: center;
+				color:#18bfef;
 			}
 
 			header.major > .date {
@@ -3752,9 +3755,18 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			
 		}
-
+		.knik{
+			background: url("/images/KnikSunrise.jpg") repeat 0 0;
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+		.sunset{
+			background: url("/images/KnikSunset.jpg") repeat 0 0;
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
 			#main > .post header.major > .date {
 				margin-top: -2rem;
 			}
@@ -3763,9 +3775,12 @@ input, select, textarea {
 				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
+				color: #18bfef;
 			}
 
 			#main > .post.featured {
+				background: url("/images/ChugachSunrise.jpg") repeat 0 0;
+				background-size: 100%;
 				text-align: center;
 			}
 
@@ -3830,7 +3845,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 4rem;
+				/* padding: 4rem; */
 				width: 50%;
 			}
 
